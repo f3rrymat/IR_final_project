@@ -1,0 +1,112 @@
+# ContextWeave — all tunable values and on/off flags live here.
+# Threshold, budget and cost values start as placeholders; `make calibrate-costs`
+# replaces costs with measured values and thresholds are tuned on validation queries only.
+
+seed: 42
+
+# Which collection to use. "cs" = our CS course-material corpus.
+# Public test collections with human qrels: "scifact", "nfcorpus" (BEIR).
+collection: cs
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  indexes: indexes
+  results: experiments/results
+  benchmark: benchmark
+  external: data/external
+
+ingestion:
+  min_page_chars: 300          # pages with less text are skipped
+  header_footer_repeat: 0.4    # a line repeated on >= this share of pages is a header/footer
+  min_doc_chars: 1500          # documents with less text are rejected and logged
+  split_glued_words: true      # split PDF tokens that lost their spaces (needs wordninja)
+
+chunking: {max_tokens: 200, overlap: 40}
+text: {lowercase: true, stopwords: english, stemmer: porter}
+
+indexing:
+  block_size: 2000             # passages per block before a merge (blocked index construction)
+
+bm25: {k1: 1.2, b: 0.75}
+champion: {r: 50}                        # postings kept per term
+index_elimination: {idf_threshold: 1.5, min_terms_matched: 2}
+
+dense:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 64
+  max_seq_length: 256
+
+expansion:
+  enabled: true
+  max_terms: 5
+  weight: 0.3
+  feedback_docs: 5             # top results used as pseudo-relevance feedback
+  candidate_terms: 30          # high TF-IDF terms considered before the embedding filter
+  min_similarity: 0.25         # term must be at least this close to the query (cosine)
+
+fusion: {method: weighted, normalisation: minmax, hybrid_alpha: 0.5}   # hybrid_alpha = fixed alpha of S5
+
+retrieval:
+  k: 10                        # results returned
+  depth: 100                   # list depth each method retrieves (for fusion / metrics)
+
+controller:
+  # Defaults for the cs demo, transferred from SciFact validation tuning (S8) until the cs
+  # benchmark is labelled (spec placeholders were tau 0.60, budget 3.0, alpha 0.7/0.5/0.3).
+  # Per-collection tuned values live in experiments/results/models/<collection>/tuned.json.
+  tau: 0.65                    # confidence threshold, tuned on validation queries
+  budget: 27.0                 # cost units per query (1 unit = one full BM25 query, measured)
+  ladder_lexical: [bm25_champion, bm25, dense, expansion]
+  ladder_semantic: [dense, bm25, expansion]
+  router:
+    short_max_terms: 4
+    long_min_terms: 8
+    high_idf: 3.0              # mean IDF at/above this counts as "high IDF"
+    unknown_share: 0.5         # share of unknown terms that counts as "many"
+  confidence_weights:          # hand-set starting weights; sigmoid(bias + sum w_i * s_i)
+    bias: -2.0
+    margin: 2.0
+    coverage: 2.5
+    concentration: 0.5
+    agreement: 2.0
+  alpha:                       # fusion weight of the lexical part, alpha(q)
+    default: 0.6
+    exact: 0.7                 # quotes / formula tokens / short high-IDF queries
+    semantic: 0.5              # questions, long queries, many unknown terms
+
+costs: {boolean: 0.79, tfidf: 0.967, bm25: 1.0, bm25_ie: 1.474, bm25_champion: 1.178, dense: 23.304, expansion: 13.869}
+
+costs_by_collection:   # measured by `make calibrate-costs`
+  nfcorpus: {boolean: 0.455, tfidf: 1.136, bm25: 1.0, bm25_ie: 1.059, bm25_champion: 1.165, dense: 59.457, expansion: 49.944}
+  scifact: {boolean: 0.379, tfidf: 1.048, bm25: 1.0, bm25_ie: 1.375, bm25_champion: 1.204, dense: 24.912, expansion: 14.401}
+  cs: {boolean: 0.79, tfidf: 0.967, bm25: 1.0, bm25_ie: 1.474, bm25_champion: 1.178, dense: 23.304, expansion: 13.869}
+
+# ---------------------------------------------------------------------------
+# Novel extensions (ContextWeave+). All OFF by default so the baseline
+# controller is exactly the specification. Experiments switch them on.
+# ---------------------------------------------------------------------------
+features:
+  qpp_signals: false           # add query-performance-prediction signals (NQC, WIG) to confidence
+  voc_policy: false            # value-of-computation escalation instead of the fixed ladder
+  risk_controlled_tau: false   # use the tau chosen by Learn-then-Test risk control
+  qpp_fusion: false            # set alpha(q) from the two lists' QPP instead of rules only
+
+novelty:
+  qpp:
+    nqc_weight: 1.5
+    wig_weight: 1.0
+  voc:
+    lambda: 0.01               # stop when best expected gain per cost unit falls below this
+    lambda_grid: [0.0, 0.00001, 0.00002, 0.00005, 0.0001, 0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01]
+    confidence_bins: [0.0, 0.3, 0.5, 0.7, 1.01]
+    prior_strength: 3.0        # shrinkage of per-bin gain estimates toward the action mean
+    model_file: voc_gain_model.json
+  risk:
+    epsilon: 0.05              # a query "fails" if its NDCG@10 is > epsilon below fixed hybrid
+    delta: 0.15                # allowed failure rate
+    eta: 0.10                  # 1 - eta = confidence of the guarantee
+    tau_grid: [0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35, 0.3]
+    model_file: risk_tau.json
+  qpp_fusion:
+    mix: 0.5                   # alpha = mix * rule_alpha + (1 - mix) * qpp_alpha

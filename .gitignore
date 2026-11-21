@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+data/processed/
+data/external/
+indexes/
+.venv/
+*.egg-info/
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+
+# local tooling
+.claude/
