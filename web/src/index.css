@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --canvas: 238 241 245;
+    --surface: 255 255 255;
+    --raised: 248 250 252;
+    --sunken: 229 233 239;
+    --ink: 17 27 46;
+    --ink-soft: 72 85 108;
+    --ink-faint: 112 124 145;
+    --line: 17 27 46;
+    --shadow: 17 27 46;
+    --accent: 44 72 214;
+    --accent-soft: 231 236 253;
+    --accent-ink: 30 51 168;
+    --lexical: 44 72 214;
+    --semantic: 116 69 202;
+    --semantic-soft: 240 234 252;
+    --expand: 176 106 0;
+    --expand-soft: 252 243 224;
+    --pass: 11 122 99;
+    --pass-soft: 225 245 239;
+    --fail: 192 52 42;
+    --fail-soft: 252 234 231;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --canvas: 11 16 28;
+    --surface: 19 26 42;
+    --raised: 24 32 51;
+    --sunken: 8 12 22;
+    --ink: 230 235 244;
+    --ink-soft: 165 176 196;
+    --ink-faint: 116 128 150;
+    --line: 200 212 235;
+    --shadow: 0 0 0;
+    --accent: 126 148 255;
+    --accent-soft: 30 39 74;
+    --accent-ink: 168 184 255;
+    --lexical: 126 148 255;
+    --semantic: 180 156 255;
+    --semantic-soft: 40 31 68;
+    --expand: 240 180 76;
+    --expand-soft: 52 39 16;
+    --pass: 70 204 168;
+    --pass-soft: 15 48 42;
+    --fail: 255 128 114;
+    --fail-soft: 62 26 26;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-canvas font-sans text-[15px] text-ink antialiased;
+    line-height: 1.5;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: rgb(var(--accent) / 0.2);
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  code {
+    @apply rounded-[5px] bg-sunken px-1.5 py-px font-mono text-[0.82em] text-ink;
+  }
+  kbd {
+    @apply inline-flex min-w-[1.4rem] justify-center rounded-[5px] border border-line/15 bg-surface px-1 font-mono text-[0.75rem] text-ink-soft shadow-[0_1px_0_rgb(var(--line)/0.15)];
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-panel border border-line/[0.08] bg-surface shadow-panel;
+  }
+  .label {
+    @apply text-[0.78rem] font-medium text-ink-faint;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .hairline {
+    @apply border-line/[0.08];
+  }
+  .snippet mark {
+    @apply rounded-[3px] bg-accent/[0.13] px-[2px] font-medium text-ink;
+    box-shadow: inset 0 -1.5px 0 rgb(var(--accent) / 0.55);
+  }
+  .skeleton {
+    background: linear-gradient(90deg, rgb(var(--sunken)) 0px, rgb(var(--raised)) 160px, rgb(var(--sunken)) 320px);
+    background-size: 960px 100%;
+    @apply animate-shimmer rounded-panel;
+  }
+  .prose-passage {
+    @apply font-serif text-[1.06rem] leading-[1.65] text-ink;
+    font-optical-sizing: auto;
+  }
+}
+
+input[type="range"] {
+  accent-color: rgb(var(--accent));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
