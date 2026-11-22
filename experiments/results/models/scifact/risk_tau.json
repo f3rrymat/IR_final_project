@@ -1,0 +1,107 @@
+{
+ "tau": 0.6,
+ "certified": true,
+ "delta": 0.15,
+ "eta": 0.1,
+ "tested": [
+  {
+   "tau": 0.95,
+   "failures": 21,
+   "n": 300,
+   "empirical_risk": 0.07,
+   "p_value": 1.719927332505446e-05,
+   "rejected_H0": true,
+   "mean_cost": 40.638393333333326
+  },
+  {
+   "tau": 0.9,
+   "failures": 20,
+   "n": 300,
+   "empirical_risk": 0.06666666666666667,
+   "p_value": 7.064318180056557e-06,
+   "rejected_H0": true,
+   "mean_cost": 39.678326666666656
+  },
+  {
+   "tau": 0.85,
+   "failures": 18,
+   "n": 300,
+   "empirical_risk": 0.06,
+   "p_value": 1.0197131112234363e-06,
+   "rejected_H0": true,
+   "mean_cost": 37.75819333333333
+  },
+  {
+   "tau": 0.8,
+   "failures": 17,
+   "n": 300,
+   "empirical_risk": 0.056666666666666664,
+   "p_value": 3.5643714230675694e-07,
+   "rejected_H0": true,
+   "mean_cost": 34.81421999999999
+  },
+  {
+   "tau": 0.75,
+   "failures": 14,
+   "n": 300,
+   "empirical_risk": 0.04666666666666667,
+   "p_value": 1.048975238454641e-08,
+   "rejected_H0": true,
+   "mean_cost": 30.431003333333333
+  },
+  {
+   "tau": 0.7,
+   "failures": 15,
+   "n": 300,
+   "empirical_risk": 0.05,
+   "p_value": 3.6286742439220236e-08,
+   "rejected_H0": true,
+   "mean_cost": 26.447543333333332
+  },
+  {
+   "tau": 0.65,
+   "failures": 23,
+   "n": 300,
+   "empirical_risk": 0.07666666666666666,
+   "p_value": 8.82608792719955e-05,
+   "rejected_H0": true,
+   "mean_cost": 22.747670000000003
+  },
+  {
+   "tau": 0.6,
+   "failures": 31,
+   "n": 300,
+   "empirical_risk": 0.10333333333333333,
+   "p_value": 0.011701366722833298,
+   "rejected_H0": true,
+   "mean_cost": 20.362003333333334
+  },
+  {
+   "tau": 0.55,
+   "failures": 37,
+   "n": 300,
+   "empirical_risk": 0.12333333333333334,
+   "p_value": 0.11067360415495973,
+   "rejected_H0": false,
+   "mean_cost": 18.891936666666666
+  }
+ ],
+ "epsilon": 0.05,
+ "budget": 41.517,
+ "curve": {
+  "0.05": 0.95,
+  "0.1": 0.7,
+  "0.15": 0.6,
+  "0.2": 0.45,
+  "0.25": 0.35,
+  "0.3": 0.3
+ },
+ "curve_certified": {
+  "0.05": false,
+  "0.1": true,
+  "0.15": true,
+  "0.2": true,
+  "0.25": true,
+  "0.3": true
+ }
+}
