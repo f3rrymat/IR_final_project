@@ -1,0 +1,331 @@
+{
+ "query": {
+  "raw": "tf-idf weight",
+  "terms": [
+   {
+    "term": "tf-idf",
+    "df": 1,
+    "idf": 3.258,
+    "bm25_idf": 2.89,
+    "known": true
+   },
+   {
+    "term": "tf",
+    "df": 1,
+    "idf": 3.258,
+    "bm25_idf": 2.89,
+    "known": true
+   },
+   {
+    "term": "idf",
+    "df": 1,
+    "idf": 3.258,
+    "bm25_idf": 2.89,
+    "known": true
+   },
+   {
+    "term": "weight",
+    "df": 2,
+    "idf": 2.565,
+    "bm25_idf": 2.38,
+    "known": true
+   }
+  ]
+ },
+ "mode": "auto",
+ "total_cost": 1.178,
+ "latency_ms": 1.0,
+ "budget": 27.0,
+ "tau": 0.05,
+ "tau_source": "argument",
+ "stop_reason": "confident (0.85 >= 0.05)",
+ "methods_run": [
+  "bm25_champion"
+ ],
+ "route": {
+  "method": "bm25_champion",
+  "note": "class=exact_short; short, high-IDF, no question word; ladder=['bm25', 'dense', 'expansion']",
+  "features": {
+   "n_terms": 4.0,
+   "n_words": 2.0,
+   "matched_terms": 4.0,
+   "unknown_share": 0.0,
+   "mean_idf": 3.085,
+   "max_idf": 3.258,
+   "question": 0.0,
+   "quotes": 0.0,
+   "boolean": 0.0,
+   "formula": 0.0
+  }
+ },
+ "trace": [
+  {
+   "action": "route",
+   "method": "bm25_champion",
+   "cost": 0.0,
+   "budget_left": 27.0,
+   "confidence": null,
+   "signals": {
+    "n_terms": 4.0,
+    "n_words": 2.0,
+    "matched_terms": 4.0,
+    "unknown_share": 0.0,
+    "mean_idf": 3.085,
+    "max_idf": 3.258,
+    "question": 0.0,
+    "quotes": 0.0,
+    "boolean": 0.0,
+    "formula": 0.0
+   },
+   "latency_ms": 1.0,
+   "note": "class=exact_short; short, high-IDF, no question word; ladder=['bm25', 'dense', 'expansion']"
+  },
+  {
+   "action": "retrieve",
+   "method": "bm25_champion",
+   "cost": 1.178,
+   "budget_left": 25.822,
+   "confidence": null,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "2 results"
+  },
+  {
+   "action": "confidence",
+   "method": null,
+   "cost": 0.0,
+   "budget_left": 25.822,
+   "confidence": 0.853,
+   "signals": {
+    "margin": 1.0,
+    "coverage": 0.6039,
+    "concentration": 0.5
+   },
+   "latency_ms": 1.0,
+   "note": "tau=0.05"
+  },
+  {
+   "action": "stop",
+   "method": null,
+   "cost": 0.0,
+   "budget_left": 25.822,
+   "confidence": 0.853,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "confident (0.85 >= 0.05)"
+  }
+ ],
+ "results": [
+  {
+   "passage_id": "fx00_p0000",
+   "doc_id": "fx00",
+   "title": "TF-IDF weighting",
+   "page": 1,
+   "domain": "IR",
+   "source": "fixture",
+   "rank": 1,
+   "score": 11.1725,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "The ",
+      false
+     ],
+     [
+      "tf-idf weight",
+      true
+     ],
+     [
+      " of a term is the product of its term frequency in the document and its inverse document frequency, log N over df. Rare terms receive high ",
+      false
+     ],
+     [
+      "idf.",
+      true
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 3
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "idf",
+      "tf": 2,
+      "idf": 2.8904,
+      "weight": 1.0,
+      "score": 3.7279,
+      "share": 0.334
+     },
+     {
+      "term": "tf-idf",
+      "tf": 1,
+      "idf": 2.8904,
+      "weight": 1.0,
+      "score": 2.6369,
+      "share": 0.236
+     },
+     {
+      "term": "tf",
+      "tf": 1,
+      "idf": 2.8904,
+      "weight": 1.0,
+      "score": 2.6369,
+      "share": 0.236
+     },
+     {
+      "term": "weight",
+      "tf": 1,
+      "idf": 2.3795,
+      "weight": 1.0,
+      "score": 2.1708,
+      "share": 0.194
+     }
+    ],
+    "eliminated": []
+   }
+  },
+  {
+   "passage_id": "fx11_p0000",
+   "doc_id": "fx11",
+   "title": "Shortest paths",
+   "page": 1,
+   "domain": "Algorithms",
+   "source": "fixture",
+   "rank": 2,
+   "score": 2.2248,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "Dijkstra's algorithm computes shortest paths from a source with non-negative edge ",
+      false
+     ],
+     [
+      "weights;",
+      true
+     ],
+     [
+      " Bellman-Ford also handles negative edges.",
+      false
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 1
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "weight",
+      "tf": 1,
+      "idf": 2.3795,
+      "weight": 1.0,
+      "score": 2.2248,
+      "share": 1.0
+     }
+    ],
+    "eliminated": []
+   }
+  }
+ ],
+ "lists": {
+  "bm25_champion": {
+   "label": "BM25 + Champion lists + Index elimination",
+   "kind": "lexical",
+   "stats": {
+    "postings_touched": 5,
+    "passages_scored": 2,
+    "share_not_scored": 0.9231,
+    "min_match": 1,
+    "latency_ms": 1.0,
+    "N": 26
+   },
+   "eliminated_terms": [],
+   "top": [
+    {
+     "passage_id": "fx00_p0000",
+     "doc_id": "fx00",
+     "title": "TF-IDF weighting",
+     "page": 1,
+     "domain": "IR",
+     "source": "fixture",
+     "rank": 1,
+     "score": 11.1725,
+     "terms": [
+      {
+       "term": "idf",
+       "tf": 2,
+       "idf": 2.8904,
+       "weight": 1.0,
+       "score": 3.7279,
+       "share": 0.334
+      },
+      {
+       "term": "tf-idf",
+       "tf": 1,
+       "idf": 2.8904,
+       "weight": 1.0,
+       "score": 2.6369,
+       "share": 0.236
+      },
+      {
+       "term": "tf",
+       "tf": 1,
+       "idf": 2.8904,
+       "weight": 1.0,
+       "score": 2.6369,
+       "share": 0.236
+      },
+      {
+       "term": "weight",
+       "tf": 1,
+       "idf": 2.3795,
+       "weight": 1.0,
+       "score": 2.1708,
+       "share": 0.194
+      }
+     ]
+    },
+    {
+     "passage_id": "fx11_p0000",
+     "doc_id": "fx11",
+     "title": "Shortest paths",
+     "page": 1,
+     "domain": "Algorithms",
+     "source": "fixture",
+     "rank": 2,
+     "score": 2.2248,
+     "terms": [
+      {
+       "term": "weight",
+       "tf": 1,
+       "idf": 2.3795,
+       "weight": 1.0,
+       "score": 2.2248,
+       "share": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "agreement": null,
+ "expansion": null
+}

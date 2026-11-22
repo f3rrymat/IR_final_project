@@ -1,0 +1,491 @@
+{
+ "query": {
+  "raw": "semaphore lock",
+  "terms": [
+   {
+    "term": "semaphor",
+    "df": 1,
+    "idf": 3.258,
+    "bm25_idf": 2.89,
+    "known": true
+   },
+   {
+    "term": "lock",
+    "df": 4,
+    "idf": 1.872,
+    "bm25_idf": 1.792,
+    "known": true
+   }
+  ]
+ },
+ "mode": "auto",
+ "total_cost": 1.178,
+ "latency_ms": 1.0,
+ "budget": 1.5,
+ "tau": 0.99,
+ "tau_source": "argument",
+ "stop_reason": "ladder exhausted or budget",
+ "methods_run": [
+  "bm25_champion"
+ ],
+ "route": {
+  "method": "bm25_champion",
+  "note": "class=default; default: cheapest lexical method; ladder=['bm25', 'dense', 'expansion']",
+  "features": {
+   "n_terms": 2.0,
+   "n_words": 2.0,
+   "matched_terms": 2.0,
+   "unknown_share": 0.0,
+   "mean_idf": 2.565,
+   "max_idf": 3.258,
+   "question": 0.0,
+   "quotes": 0.0,
+   "boolean": 0.0,
+   "formula": 0.0
+  }
+ },
+ "trace": [
+  {
+   "action": "route",
+   "method": "bm25_champion",
+   "cost": 0.0,
+   "budget_left": 1.5,
+   "confidence": null,
+   "signals": {
+    "n_terms": 2.0,
+    "n_words": 2.0,
+    "matched_terms": 2.0,
+    "unknown_share": 0.0,
+    "mean_idf": 2.565,
+    "max_idf": 3.258,
+    "question": 0.0,
+    "quotes": 0.0,
+    "boolean": 0.0,
+    "formula": 0.0
+   },
+   "latency_ms": 1.0,
+   "note": "class=default; default: cheapest lexical method; ladder=['bm25', 'dense', 'expansion']"
+  },
+  {
+   "action": "retrieve",
+   "method": "bm25_champion",
+   "cost": 1.178,
+   "budget_left": 0.322,
+   "confidence": null,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "4 results"
+  },
+  {
+   "action": "confidence",
+   "method": null,
+   "cost": 0.0,
+   "budget_left": 0.322,
+   "confidence": 0.826,
+   "signals": {
+    "margin": 1.0,
+    "coverage": 0.5237,
+    "concentration": 0.5
+   },
+   "latency_ms": 1.0,
+   "note": "tau=0.99"
+  },
+  {
+   "action": "escalate",
+   "method": "bm25",
+   "cost": 0.0,
+   "budget_left": 0.322,
+   "confidence": 0.826,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "skip bm25: needs 1.00, 0.32 left"
+  },
+  {
+   "action": "escalate",
+   "method": "dense",
+   "cost": 0.0,
+   "budget_left": 0.322,
+   "confidence": 0.826,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "skip dense: needs 23.30, 0.32 left"
+  },
+  {
+   "action": "escalate",
+   "method": "expansion",
+   "cost": 0.0,
+   "budget_left": 0.322,
+   "confidence": 0.826,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "skip expansion: needs 13.87, 0.32 left"
+  },
+  {
+   "action": "stop",
+   "method": null,
+   "cost": 0.0,
+   "budget_left": 0.322,
+   "confidence": 0.826,
+   "signals": {},
+   "latency_ms": 1.0,
+   "note": "ladder exhausted or budget"
+  }
+ ],
+ "results": [
+  {
+   "passage_id": "fx05_p0001",
+   "doc_id": "fx05",
+   "title": "Semaphores",
+   "page": 1,
+   "domain": "OS",
+   "source": "fixture",
+   "rank": 1,
+   "score": 5.9377,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "A ",
+      false
+     ],
+     [
+      "semaphore",
+      true
+     ],
+     [
+      " is an integer with sem_wait and sem_post operations. A binary ",
+      false
+     ],
+     [
+      "semaphore",
+      true
+     ],
+     [
+      " can be used as a ",
+      false
+     ],
+     [
+      "lock",
+      true
+     ],
+     [
+      " to protect shared information.",
+      false
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 3
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "semaphor",
+      "tf": 2,
+      "idf": 2.8904,
+      "weight": 1.0,
+      "score": 4.0775,
+      "share": 0.687
+     },
+     {
+      "term": "lock",
+      "tf": 1,
+      "idf": 1.7918,
+      "weight": 1.0,
+      "score": 1.8603,
+      "share": 0.313
+     }
+    ],
+    "eliminated": []
+   }
+  },
+  {
+   "passage_id": "fx06_p0000",
+   "doc_id": "fx06",
+   "title": "Deadlock",
+   "page": 1,
+   "domain": "OS",
+   "source": "fixture",
+   "rank": 2,
+   "score": 2.8308,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "Deadlock occurs when two threads each hold a ",
+      false
+     ],
+     [
+      "lock",
+      true
+     ],
+     [
+      " and wait forever for the ",
+      false
+     ],
+     [
+      "lock",
+      true
+     ],
+     [
+      " held by the other. ",
+      false
+     ],
+     [
+      "Lock",
+      true
+     ],
+     [
+      " ordering prevents circular wait.",
+      false
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 3
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "lock",
+      "tf": 3,
+      "idf": 1.7918,
+      "weight": 1.0,
+      "score": 2.8308,
+      "share": 1.0
+     }
+    ],
+    "eliminated": []
+   }
+  },
+  {
+   "passage_id": "fx10_p0000",
+   "doc_id": "fx10",
+   "title": "Two-phase locking",
+   "page": 1,
+   "domain": "DBMS",
+   "source": "fixture",
+   "rank": 3,
+   "score": 2.4811,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "Two-phase ",
+      false
+     ],
+     [
+      "locking",
+      true
+     ],
+     [
+      " has a growing phase where ",
+      false
+     ],
+     [
+      "locks",
+      true
+     ],
+     [
+      " are acquired and a shrinking phase where they are released, guaranteeing conflict serializable schedules.",
+      false
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 2
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "lock",
+      "tf": 2,
+      "idf": 1.7918,
+      "weight": 1.0,
+      "score": 2.4811,
+      "share": 1.0
+     }
+    ],
+    "eliminated": []
+   }
+  },
+  {
+   "passage_id": "fx05_p0000",
+   "doc_id": "fx05",
+   "title": "Mutual exclusion",
+   "page": 1,
+   "domain": "OS",
+   "source": "fixture",
+   "rank": 4,
+   "score": 1.8103,
+   "method": "bm25_champion",
+   "snippet": {
+    "segments": [
+     [
+      "A ",
+      false
+     ],
+     [
+      "lock",
+      true
+     ],
+     [
+      " provides mutual exclusion so that only one thread enters the critical section at a time, preventing a race condition on shared data.",
+      false
+     ]
+    ],
+    "before": false,
+    "after": false,
+    "hits": 1
+   },
+   "why": {
+    "alpha": null,
+    "lexical_method": null,
+    "lexical_norm": null,
+    "semantic_norm": null,
+    "cosine": null,
+    "in_lexical": null,
+    "in_semantic": null,
+    "terms": [
+     {
+      "term": "lock",
+      "tf": 1,
+      "idf": 1.7918,
+      "weight": 1.0,
+      "score": 1.8103,
+      "share": 1.0
+     }
+    ],
+    "eliminated": []
+   }
+  }
+ ],
+ "lists": {
+  "bm25_champion": {
+   "label": "BM25 + Champion lists + Index elimination",
+   "kind": "lexical",
+   "stats": {
+    "postings_touched": 5,
+    "passages_scored": 4,
+    "share_not_scored": 0.8462,
+    "min_match": 1,
+    "latency_ms": 1.0,
+    "N": 26
+   },
+   "eliminated_terms": [],
+   "top": [
+    {
+     "passage_id": "fx05_p0001",
+     "doc_id": "fx05",
+     "title": "Semaphores",
+     "page": 1,
+     "domain": "OS",
+     "source": "fixture",
+     "rank": 1,
+     "score": 5.9377,
+     "terms": [
+      {
+       "term": "semaphor",
+       "tf": 2,
+       "idf": 2.8904,
+       "weight": 1.0,
+       "score": 4.0775,
+       "share": 0.687
+      },
+      {
+       "term": "lock",
+       "tf": 1,
+       "idf": 1.7918,
+       "weight": 1.0,
+       "score": 1.8603,
+       "share": 0.313
+      }
+     ]
+    },
+    {
+     "passage_id": "fx06_p0000",
+     "doc_id": "fx06",
+     "title": "Deadlock",
+     "page": 1,
+     "domain": "OS",
+     "source": "fixture",
+     "rank": 2,
+     "score": 2.8308,
+     "terms": [
+      {
+       "term": "lock",
+       "tf": 3,
+       "idf": 1.7918,
+       "weight": 1.0,
+       "score": 2.8308,
+       "share": 1.0
+      }
+     ]
+    },
+    {
+     "passage_id": "fx10_p0000",
+     "doc_id": "fx10",
+     "title": "Two-phase locking",
+     "page": 1,
+     "domain": "DBMS",
+     "source": "fixture",
+     "rank": 3,
+     "score": 2.4811,
+     "terms": [
+      {
+       "term": "lock",
+       "tf": 2,
+       "idf": 1.7918,
+       "weight": 1.0,
+       "score": 2.4811,
+       "share": 1.0
+      }
+     ]
+    },
+    {
+     "passage_id": "fx05_p0000",
+     "doc_id": "fx05",
+     "title": "Mutual exclusion",
+     "page": 1,
+     "domain": "OS",
+     "source": "fixture",
+     "rank": 4,
+     "score": 1.8103,
+     "terms": [
+      {
+       "term": "lock",
+       "tf": 1,
+       "idf": 1.7918,
+       "weight": 1.0,
+       "score": 1.8103,
+       "share": 1.0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "agreement": null,
+ "expansion": null
+}

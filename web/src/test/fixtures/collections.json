@@ -1,0 +1,138 @@
+{
+ "collections": [
+  {
+   "id": "cs",
+   "label": "CS course material",
+   "short": "CS",
+   "description": "163 open textbooks, lecture notes and papers across IR, OS, Networks, DBMS and Algorithms",
+   "examples": [
+    "How can a search engine identify the importance of a webpage?",
+    "TF-IDF formula and inverse document frequency",
+    "Compare BM25 and TF-IDF",
+    "semaphore AND NOT deadlock",
+    "TCP Reno fast retransmit fast recovery"
+   ],
+   "ready": true,
+   "passages": 7661,
+   "domains": [
+    "Algorithms",
+    "DBMS",
+    "IR",
+    "Networks",
+    "OS"
+   ],
+   "defaults": {
+    "tau": 0.65,
+    "budget": 27.0,
+    "source": "config defaults"
+   },
+   "expansion_default": true,
+   "costs": {
+    "boolean": 0.79,
+    "tfidf": 0.967,
+    "bm25": 1.0,
+    "bm25_ie": 1.474,
+    "bm25_champion": 1.178,
+    "dense": 23.304,
+    "expansion": 13.869
+   },
+   "max_budget": 40.0,
+   "features": {
+    "qpp_signals": true,
+    "voc_policy": false,
+    "risk_controlled_tau": false,
+    "qpp_fusion": false
+   },
+   "has_results": true,
+   "judging": true
+  },
+  {
+   "id": "scifact",
+   "label": "SciFact",
+   "short": "SciFact",
+   "description": "BEIR SciFact - scientific claims checked against research abstracts",
+   "examples": [
+    "0-dimensional biomaterials show inductive properties.",
+    "ALDH1 expression is associated with poorer prognosis for breast cancer primary tumors.",
+    "Statins reduce the risk of heart attacks"
+   ],
+   "ready": true,
+   "passages": 5183,
+   "domains": [],
+   "defaults": {
+    "tau": 0.65,
+    "budget": 27.116,
+    "source": "tuned on validation (S8)"
+   },
+   "expansion_default": true,
+   "costs": {
+    "boolean": 0.379,
+    "tfidf": 1.048,
+    "bm25": 1.0,
+    "bm25_ie": 1.375,
+    "bm25_champion": 1.204,
+    "dense": 24.912,
+    "expansion": 14.401
+   },
+   "max_budget": 43.0,
+   "features": {
+    "qpp_signals": true,
+    "voc_policy": true,
+    "risk_controlled_tau": true,
+    "qpp_fusion": true
+   },
+   "has_results": true,
+   "judging": false
+  },
+  {
+   "id": "nfcorpus",
+   "label": "NFCorpus",
+   "short": "NFCorpus",
+   "description": "BEIR NFCorpus - nutrition questions answered by medical abstracts",
+   "examples": [
+    "Why Deep Fried Foods May Cause Cancer",
+    "statins",
+    "breast cancer",
+    "vitamin D"
+   ],
+   "ready": false,
+   "passages": null,
+   "domains": [],
+   "defaults": {
+    "tau": 0.7,
+    "budget": 61.622,
+    "source": "tuned on validation (S8)"
+   },
+   "expansion_default": true,
+   "costs": {
+    "boolean": 0.455,
+    "tfidf": 1.136,
+    "bm25": 1.0,
+    "bm25_ie": 1.059,
+    "bm25_champion": 1.165,
+    "dense": 59.457,
+    "expansion": 49.944
+   },
+   "max_budget": 113.0,
+   "features": {
+    "qpp_signals": true,
+    "voc_policy": true,
+    "risk_controlled_tau": true,
+    "qpp_fusion": true
+   },
+   "has_results": true,
+   "judging": false
+  }
+ ],
+ "modes": [
+  "auto",
+  "bm25",
+  "tfidf",
+  "dense",
+  "hybrid",
+  "boolean",
+  "bm25_champion",
+  "route"
+ ],
+ "default": "cs"
+}
