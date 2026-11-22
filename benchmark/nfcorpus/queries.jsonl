@@ -1,0 +1,623 @@
+{"qid": "PLAIN-1", "text": "Why Deep Fried Foods May Cause Cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1007", "text": "DDT", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-101", "text": "How to Treat Multiple Sclerosis With Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1017", "text": "detoxification", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1027", "text": "dietary guidelines", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1038", "text": "dogs", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1049", "text": "Dr. David Spence", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1065", "text": "Dr. Walter Kempner", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1077", "text": "dulse", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1087", "text": "Easter Island", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1097", "text": "Eggbeaters", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1108", "text": "endocannabinoids", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-111", "text": "How to Get Kids to Eat Their Vegetables", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1118", "text": "energy", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1129", "text": "erectile dysfunction", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1140", "text": "European Food Safety Authority", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1150", "text": "eye parasites", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1160", "text": "fatty liver disease", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1181", "text": "figs", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1192", "text": "flavonols", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1202", "text": "folate", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1213", "text": "formaldehyde", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-122", "text": "Citrus to Reduce Muscle Fatigue", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1224", "text": "fructans", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1235", "text": "galactose", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1245", "text": "gastric emptying", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1261", "text": "glaucoma", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1273", "text": "goiter", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1287", "text": "grapefruit juice", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1298", "text": "grilling", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1308", "text": "hair loss", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-132", "text": "Can We Fight the Blues With Greens?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1330", "text": "health food stores", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1341", "text": "HeLa cells", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1352", "text": "herbs", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1373", "text": "hormesis", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1386", "text": "Hydroxycut", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1397", "text": "IgA", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1408", "text": "industrial pollutants", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1418", "text": "insecticides", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-142", "text": "Dealing With Air Travel Radiation Exposure", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1428", "text": "iodine", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1451", "text": "juice", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1462", "text": "kidney", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1472", "text": "kiwi fruit", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1484", "text": "lamb", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1495", "text": "lecithin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1505", "text": "lettuce", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1515", "text": "limonin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-152", "text": "How Probiotics Affect Mental Health", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1526", "text": "liver cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1536", "text": "lovastatin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1546", "text": "lycopene", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1556", "text": "maggots", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1567", "text": "MAO Inhibitors", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1578", "text": "mastectomy", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1589", "text": "medical education", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1600", "text": "MelQx", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1610", "text": "mesothelioma", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1620", "text": "methylmalonic acid", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1634", "text": "migraines", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-164", "text": "Down But Not Out", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1644", "text": "mitochondria", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1655", "text": "mortality", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1666", "text": "muscle disease", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1678", "text": "mycotoxins", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1689", "text": "nasal irrigation", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1699", "text": "National Pork Producers Council", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1709", "text": "Neu5Gc", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1720", "text": "nightshades", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-174", "text": "Cinnamon for Diabetes", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1740", "text": "nutritional yeast", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1761", "text": "oral health", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1771", "text": "organochlorines", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1783", "text": "oxalates", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1793", "text": "palmitic acid", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1804", "text": "parasites", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1816", "text": "peaches", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1826", "text": "penis size", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1836", "text": "persistent organic pollutants", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1846", "text": "phenolics", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-185", "text": "The Best Nutrition Bar", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1856", "text": "phytates", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1866", "text": "pineapple juice", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1876", "text": "plant protein", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1886", "text": "pneumovax", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1896", "text": "polyphenols", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1907", "text": "porcine endogenous retroviruses", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1918", "text": "poultry viruses", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1928", "text": "premenstrual syndrome", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1939", "text": "processed meats", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1949", "text": "Prozac", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-195", "text": "Why are Children Starting Puberty Earlier?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1961", "text": "pulmonary embolism", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1971", "text": "quercitin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1982", "text": "ranking foods", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1994", "text": "red onions", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2007", "text": "reversing chronic disease", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2018", "text": "Richard Dawkins", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2029", "text": "rutabagas", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2039", "text": "saliva", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2050", "text": "saturate fat", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-206", "text": "Foods That May Block Cancer Formation", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2060", "text": "sea vegetables", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2070", "text": "sense of smell", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2080", "text": "sheep", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2091", "text": "sinusitis", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2101", "text": "smoked foods", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2112", "text": "sodium bicarbonate", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2123", "text": "Spain", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2133", "text": "spirulina", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2144", "text": "SSRI's", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2155", "text": "steroids", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-216", "text": "Plant-Based Diets for Metabolic Syndrome", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2166", "text": "stroke", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2176", "text": "sulforaphane", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2186", "text": "supplements", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2196", "text": "sweet potatoes", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-22", "text": "Why are Cancer Rates so Low in India?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2208", "text": "tapeworms", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2219", "text": "telomeres", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2229", "text": "thermogenics", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2239", "text": "tick bites", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2249", "text": "tongue cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-226", "text": "Bugs & Drugs in Pork: Yersinia and Ractopamine", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2270", "text": "tryptophan", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2280", "text": "turmeric", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2300", "text": "uterine cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2310", "text": "Vaseline", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2320", "text": "veggie burgers", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2331", "text": "Vioxx", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2342", "text": "vitamin E", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2353", "text": "walnut", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2363", "text": "weeds", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-237", "text": "Pollutants in Californian Breast Tissue", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2374", "text": "Whitecoat project", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2395", "text": "xylitol", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2429", "text": "Diverticulosis: When Our Most Common Gut Disorder Hardly Existed", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2439", "text": "From Table to Able: Combating Disabling Diseases with Food", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2449", "text": "How to Make Your Own Fruit and Vegetable Wash", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2459", "text": "How to Prevent a Stroke", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2469", "text": "If White Rice is Linked to Diabetes, What About China?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-247", "text": "How Do Plant-Based Diets Fight Cancer?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2479", "text": "Stool pH and Colon Cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2489", "text": "Why Prevention is Worth a Ton of Cure", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2499", "text": "The Saturated Fat Studies: Set Up to Fail", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2509", "text": "Chicken Big: Poultry and Obesity", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2529", "text": "Juicing Removes More Than Just Fiber", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2539", "text": "Cooked Beans or Sprouted Beans?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2549", "text": "How the Egg Board Designs Misleading Studies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2569", "text": "Prevent Cancer From Going on TOR", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2579", "text": "Alzheimer\u2019s Disease: Grain Brain or Meathead?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-258", "text": "Nuts Don't Cause Expected Weight Gain", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2589", "text": "Anti-inflammatory Life is a Bowl of Cherries", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2609", "text": "Treating Asthma and Eczema With Plant-Based Diets", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2619", "text": "Fully Consensual Heart Disease Treatment", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2629", "text": "Dietary Sources of Alkylphenol Endocrine Disruptors", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2639", "text": "Who Determines if Food Additives are Safe?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2649", "text": "Boosting the Bioavailability of Curcumin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2659", "text": "Greens vs. Glaucoma", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2679", "text": "Phosphate Additives in Meat Purge and Cola", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2689", "text": "Enhanced Athletic Recovery Without Undermining Adaptation", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-269", "text": "Preventing and Treating Kidney Failure With Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2699", "text": "Treating Multiple Sclerosis With the Swank MS Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2709", "text": "Tricks to Get Kids to Eat Healthier at School", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2719", "text": "Reducing Muscle Fatigue With Citrus", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2729", "text": "Fighting the Blues With Greens?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2739", "text": "Do Dental X-Rays Cause Brain Tumors?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2759", "text": "Breast Cancer and Alcohol: How Much is Safe?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2769", "text": "The McGovern Report", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2779", "text": "Raisins vs. Jelly Beans for Athletic Performance", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2789", "text": "Protein, Puberty, and Pollutants", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-279", "text": "Latest in Clinical Nutrition Volume 10 Now on DVD", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2799", "text": "Meat Fumes: Dietary Secondhand Smoke", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2809", "text": "Apple Skin: Peeling Back Cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2819", "text": "Potassium and Autoimmune Disease", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2829", "text": "Unsweetening the Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2839", "text": "Side-Effect of Fenugreek Consumption", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2849", "text": "Protein and Heart Disease", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2859", "text": "Pollutants in Californian Breast Tissue", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2869", "text": "Good Grub: The Healthiest Meat", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2879", "text": "How Plant-Based to Lower IGF-1?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2889", "text": "Extra Virgin Olive Oil vs. Nuts", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2899", "text": "Tipping Firmicutes to Bacteroidetes", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-290", "text": "Coffee Caveats", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2909", "text": "Optimal Phytosterol Source", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2919", "text": "The Wrong Way to Boost Serotonin", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2929", "text": "Kiwifruit and DNA Repair", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2939", "text": "The Leaky Gut Theory of Why Animal Products Cause Inflammation", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2949", "text": "Zero Tolerance to Acceptable Risk", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2969", "text": "SAD States: Standard American Diet State-By-State Comparison", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2979", "text": "Cow\u2019s Milk Casomorphin and Crib Death", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-2990", "text": "Watermelon as Treatment for Erectile Dysfunction", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3000", "text": "Chicken Dioxins, Viruses, or Antibiotics?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3013", "text": "Lung Cancer Metastases and Broccoli", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3036", "text": "Asparagus Pee", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-304", "text": "EPA dioxin limit has National Chicken Council worried products could be declared \"unfit for consumption\"", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3052", "text": "Anti Up on the Veggies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3062", "text": "Amla Versus Cancer Cell Growth", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3073", "text": "Glycotoxins", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3084", "text": "How the Institute of Medicine Arrived at Their Vitamin D Recommendation", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3096", "text": "Phytochemicals: The Nutrition Facts Missing From the Label", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3114", "text": "Plant Protein Preferable", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3130", "text": "Are Avocados Bad for You?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3140", "text": "Stool Size Matters", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3150", "text": "Golden Glow", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3160", "text": "Egg Cholesterol in the Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3170", "text": "Melatonin & Breast Cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3180", "text": "Is Kimchi Good For You?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-319", "text": "Bowel movements: the scoop on poop", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3190", "text": "Obesity-Causing Pollutants in Food", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-32", "text": "Peeks Behind the Egg Industry Curtain", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3200", "text": "Anabolic Steroids in Meat", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3220", "text": "Reversing Cognitive Decline", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3230", "text": "Wart Cancer Viruses in Food", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3240", "text": "Is Homeopathy Just Placebo?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3250", "text": "Improving Memory Through Diet", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3260", "text": "Update on Juice Plus+\u00ae", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3270", "text": "Flaxseeds vs. Chia Seeds", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3280", "text": "Brown Rice vs. Black Rice", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3291", "text": "Lutein, Lycopene, and Selenium Pills", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3301", "text": "Amalgam Fillings vs. Canned Tuna", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-331", "text": "How to live longer in four easy steps", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3311", "text": "New Corpse Smell", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3321", "text": "#1 Anticancer Vegetable", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3331", "text": "Salt OK if Blood Pressure is OK?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3341", "text": "Are Avocados Good for You?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3361", "text": "Update on Chocolate", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3371", "text": "A Harmless Artificial Sweetener", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3381", "text": "Are Artificial Colors Harmful?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3391", "text": "Bottled Water vs. Tap", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3401", "text": "Superfood Bargains", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3411", "text": "Dairy & Acne", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3421", "text": "Broccoli Sprouts", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-343", "text": "Three Brands of Nutritional Yeast Contain Detectable Lead Levels But the Risk is Minimal", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3431", "text": "Omnivore vs. Vegan Nutrient Deficiencies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3441", "text": "Doctors' Nutritional Ignorance", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3451", "text": "Blue-Green Algae & Spirulina", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3461", "text": "Coffee and Mortality", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-3471", "text": "Uprooting the Leading Causes of Death", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-357", "text": "Can diet be used to treat kidney cancer?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-394", "text": "Should we take algae supplements for astaxanthin?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-406", "text": "Can hibiscus tea cause coughing?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-417", "text": "Does wild rice contain the same levels of arsenic as brown rice?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-428", "text": "In making water alkaline, how much baking soda is too much?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-43", "text": "Organic Milk and Prostate Cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-440", "text": "What's the right dose of saffron?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-456", "text": "Is multivitamin use really associated to an increased risk of breast cancer?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-467", "text": "Isn't regular cocoa powder healthier than alkali-processed \"dutched\" cocoa?", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-477", "text": "acarbose", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-487", "text": "addiction", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-498", "text": "African Americans", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-508", "text": "air travel", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-519", "text": "allergies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-530", "text": "ALS", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-540", "text": "American College of Lifestyle Medicine", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-55", "text": "Foods for Macular Degeneration", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-550", "text": "ammonia", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-560", "text": "anesthesia", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-570", "text": "animal studies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-582", "text": "antihistamines", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-592", "text": "apigen", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-612", "text": "asbestos", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-622", "text": "Ativan", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-633", "text": "avocado oil", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-644", "text": "bad breath", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-656", "text": "Barrett's esophagus", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-67", "text": "How Beans Help Our Bones", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-670", "text": "bell peppers", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-680", "text": "beta-carboline alkaloids", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-690", "text": "bio identical hormones", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-700", "text": "black beans", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-710", "text": "blood cancer", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-720", "text": "bluefish", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-740", "text": "BPA", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-750", "text": "brazil nuts", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-760", "text": "breast milk", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-77", "text": "Phosphate Additives in Chicken Banned Elsewhere", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-770", "text": "Broccomax", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-781", "text": "burritos", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-791", "text": "cabbage", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-805", "text": "California Raison Marketing Board", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-816", "text": "candy", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-826", "text": "carboxy-methyl cellulose", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-837", "text": "carotid arteries", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-848", "text": "cats", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-859", "text": "cellulite", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-871", "text": "champagne grapes", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-881", "text": "chemotherapy", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-891", "text": "chicken embryo lethal orphan virus", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-90", "text": "How to Boost the Benefits of Exercise", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-901", "text": "chlorination", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-923", "text": "Coca-Cola", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-933", "text": "cod liver oil", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-945", "text": "colon health", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-955", "text": "cookies", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-965", "text": "Cornell", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-976", "text": "cretinism", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-986", "text": "cucumbers", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-996", "text": "cytoskeleton", "type": "unknown", "split": "val"}
+{"qid": "PLAIN-1008", "text": "deafness", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1018", "text": "DHA", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-102", "text": "Stopping Heart Disease in Childhood", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1028", "text": "dietary scoring", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1039", "text": "domoic acid", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1050", "text": "Dr. Dean Ornish", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1066", "text": "Dr. Walter Willett", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1088", "text": "ECMO", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1098", "text": "eggnog", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1109", "text": "endocrine disruptors", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1119", "text": "energy drinks", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-112", "text": "Food Dyes and ADHD", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1130", "text": "ergothioneine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1141", "text": "Evidence-based medicine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1151", "text": "factory farming practices", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1161", "text": "fava beans", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1172", "text": "fenugreek", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1183", "text": "Finland", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1193", "text": "flax oil", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-12", "text": "Exploiting Autophagy to Live Longer", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1203", "text": "folic acid", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1214", "text": "Fosamax", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1225", "text": "fructose", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-123", "text": "How Citrus Might Help Keep Your Hands Warm", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1236", "text": "galactosemia", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1249", "text": "genetic manipulation", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1262", "text": "Global Burden of Disease Study", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1275", "text": "goji berries", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1288", "text": "grapes", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1299", "text": "growth promoters", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1309", "text": "halibut", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1320", "text": "Harvard Physicians\u2019 Study II", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-133", "text": "Starving Tumors of Their Blood Supply", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1331", "text": "hearing", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1342", "text": "heme iron", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1353", "text": "hernia", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1363", "text": "Hiroshima", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1374", "text": "hormonal dysfunction", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1387", "text": "hyperactivity", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1398", "text": "IGF-1", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1409", "text": "industrial toxins", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1419", "text": "insects", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1429", "text": "Iowa Women\u2019s Health Study", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-143", "text": "Are Dental X-Rays Safe?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1441", "text": "Japan", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1453", "text": "junk food", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1463", "text": "kidney beans", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1473", "text": "kohlrabi", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1485", "text": "lard", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1496", "text": "leeks", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1506", "text": "leucine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1516", "text": "Lindane", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1527", "text": "liver disease", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-153", "text": "How Should I Take Probiotics?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1537", "text": "low-carb diets", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1547", "text": "lyme disease", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1557", "text": "magnesium", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1568", "text": "maple syrup", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1579", "text": "mastitis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1590", "text": "medical ethics", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1601", "text": "memory", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1611", "text": "mesquite", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1621", "text": "Mevacor", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1635", "text": "milk", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1645", "text": "molasses", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-165", "text": "Breast Cancer & Alcohol: How Much is Safe?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1656", "text": "mouth cancer", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1667", "text": "muscle health", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1679", "text": "myelopathy", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1690", "text": "National Academy of Sciences", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1700", "text": "Native Americans", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1710", "text": "neurocysticercosis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1721", "text": "NIH-AARP study", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1731", "text": "norovirus", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1741", "text": "nuts", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-175", "text": "Diet and Cellulite", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1752", "text": "okra", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1762", "text": "oral intraepithelial neoplasia", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1772", "text": "organotins", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1784", "text": "oxen meat", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1794", "text": "Panama", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1805", "text": "Parkinson's disease", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1817", "text": "peanut butter", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1827", "text": "Peoria", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1837", "text": "pesticides", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1847", "text": "philippines", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1857", "text": "phytic acid", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-186", "text": "Best Treatment for Constipation", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1867", "text": "pineapples", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1877", "text": "plant-based diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1887", "text": "poisonous plants", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1897", "text": "polypropylene plastic", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1909", "text": "pork", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1919", "text": "poultry workers", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1929", "text": "prenatal vitamins", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1940", "text": "prolactin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1950", "text": "prunes", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-196", "text": "Should We Avoid Titanium Dioxide?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1962", "text": "pumpkin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1972", "text": "quinine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1983", "text": "rapamycin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-1995", "text": "red tea", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2", "text": "Do Cholesterol Statin Drugs Cause Breast Cancer?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2009", "text": "rhabdomyolysis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2019", "text": "rickets", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2030", "text": "Rutin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2040", "text": "salmon", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2051", "text": "saturated fat", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2061", "text": "seafood", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-207", "text": "Avoiding Cooked Meat Carcinogens", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2071", "text": "serotonin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2081", "text": "shelf life", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2092", "text": "sirtuins", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2102", "text": "smoking", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2113", "text": "soil health", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2124", "text": "spearmint", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2134", "text": "Splenda", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2145", "text": "St. John's wort", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2156", "text": "stevia", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2167", "text": "subsidies", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-217", "text": "Plant-Based Diets for Psoriasis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2177", "text": "sulfur", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2187", "text": "suppositories", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2197", "text": "sweeteners", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2209", "text": "taro", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2220", "text": "tempeh", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2230", "text": "thiamine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2240", "text": "titanium dioxide", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2250", "text": "tongue worm", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2261", "text": "trans fats", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-227", "text": "Increasing Muscle Strength with Fenugreek", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2271", "text": "Tufts", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2281", "text": "turnips", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2291", "text": "ultra-processed foods", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-23", "text": "How to Reduce Exposure to Alkylphenols Through Your Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2301", "text": "uterine health", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2311", "text": "veal", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2321", "text": "veggie chicken", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2332", "text": "viral infections", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2343", "text": "vitamin K", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2354", "text": "walnut oil", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2364", "text": "weight gain", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2375", "text": "whiting", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-238", "text": "How Chemically Contaminated Are We?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2386", "text": "worms", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2396", "text": "Yale", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2408", "text": "Zoloft", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2430", "text": "Preventing Brain Loss with B Vitamins?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2440", "text": "More Than an Apple a Day: Combating Common Diseases", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2450", "text": "Are Organic Foods Safer?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2460", "text": "Diabetes as a Disease of Fat Toxicity", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2470", "text": "Is Milk Good for Our Bones?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-248", "text": "Treating an Enlarged Prostate With Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2480", "text": "Preventing Ulcerative Colitis with Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2490", "text": "The Actual Benefit of Diet vs. Drugs", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2500", "text": "The Saturated Fat Studies: Buttering Up the Public", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2510", "text": "Coffee and Artery Function", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2520", "text": "Caloric Restriction vs. Plant-Based Diets", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2530", "text": "Infectobesity: Adenovirus 36 and Childhood Obesity", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2540", "text": "Does Cholesterol Size Matter?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2550", "text": "Barriers to Heart Disease Prevention", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2560", "text": "Childhood Constipation and Cow\u2019s Milk", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2570", "text": "Diabetics Should Take Their Pulses", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2580", "text": "Academy of Nutrition and Dietetics Conflicts of Interest", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-259", "text": "Optimal Phytosterol Dose and Source", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2590", "text": "Do Vegetarians Get Enough Protein?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2600", "text": "Eggs and Arterial Function", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2610", "text": "Treating Asthma With Plants vs. Supplements?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2620", "text": "Phytates for the Treatment of Cancer", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2630", "text": "Alkylphenol Endocrine Disruptors and Allergies", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2640", "text": "Chicken Salmonella Thanks to Meat Industry Lawsuit", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2650", "text": "Turmeric Curcumin and Osteoarthritis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2660", "text": "How Long to Detox From Fish Before Pregnancy?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2670", "text": "Is Caramel Color Carcinogenic?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2680", "text": "Counteracting the Effects of Dioxins Through Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2690", "text": "Chronic Headaches and Pork Tapeworms", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-270", "text": "Is Caffeinated Tea Really Dehydrating?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2700", "text": "Heart Disease Starts in Childhood", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2710", "text": "Artificial Food Colors and ADHD", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2720", "text": "Keeping Your Hands Warm With Citrus", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2730", "text": "Anti-Angiogenesis: Cutting Off Tumor Supply Lines", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2740", "text": "Cancer Risk From CT Scan Radiation", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2750", "text": "Preventing the Common Cold with Probiotics?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2760", "text": "Eating Healthy on a Budget", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2770", "text": "Flaxseeds & Breast Cancer Survival: Clinical Evidence", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2780", "text": "Do Fruit & Nut Bars Cause Weight Gain?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2790", "text": "Titanium Dioxide & Inflammatory Bowel Disease", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-280", "text": "Mercury Testing Recommended Before Pregnancy", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2800", "text": "Prolonged Liver Function Enhancement From Broccoli", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2810", "text": "Apple Juice May Be Worse Than Sugar Water", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2820", "text": "Preventing Strokes with Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2830", "text": "Neurobiology of Artificial Sweeteners", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2840", "text": "Benefits of Fenugreek Seeds", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2850", "text": "More Antibiotics In White Meat or Dark Meat?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2860", "text": "BPA Plastic and Male Sexual Dysfunction", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2870", "text": "Filled Full of Lead", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2880", "text": "The Answer to the Pritikin Puzzle", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2890", "text": "To Snack or Not to Snack?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2900", "text": "Boosting Good Bacteria in the Colon Without Probiotics", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-291", "text": "Stool Size and Breast Cancer Risk", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2910", "text": "Optimal Phytosterol Dose", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2920", "text": "Human Neurotransmitters in Plants", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2930", "text": "Kiwifruit for Irritable Bowel Syndrome", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2940", "text": "Dietary Treatment of Crohn's Disease", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2950", "text": "Unsafe at Any Feed", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2960", "text": "Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2970", "text": "Preventing Cataracts with Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2981", "text": "Cheese Mites and Maggots", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-2991", "text": "Cholesterol and Lower Back Pain", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3001", "text": "EPIC Findings on Lymphoma", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3014", "text": "Sometimes the Enzyme Myth Is True", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3026", "text": "Vitamin C-Enriched Bacon", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3037", "text": "Out of the Lab Onto the Track", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3053", "text": "Dragon's Blood", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3063", "text": "Better Than Goji Berries", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-307", "text": "Vitamin D: Shedding some light on the new recommendations", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3074", "text": "How to Help Prevent Abdominal Aortic Aneurysms", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3085", "text": "The Difficulty of Arriving at a Vitamin D Recommendation", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3097", "text": "Amyloid and Apple Juice", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3116", "text": "Dietary Guidelines: From Dairies to Berries", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3131", "text": "Are Avocados Good for You?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3141", "text": "Relieving Yourself of Excess Estrogen", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3151", "text": "Too Much Iodine Can Be as Bad as Too Little", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3161", "text": "Is Milk and Mucus a Myth?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3171", "text": "Convergence of Evidence", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3181", "text": "Is Dragon Fruit Good For You?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3191", "text": "Is Distilled Fish Oil Toxin-Free?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-320", "text": "Breast Cancer and Diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3201", "text": "Acne & Cancer Connection", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3211", "text": "Overdosing on Greens", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3221", "text": "Dietary Theory of Alzheimer's", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3231", "text": "Meat & Multiple Myeloma", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3241", "text": "Apthous Ulcer Mystery Solved", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3251", "text": "EPIC Study", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3261", "text": "Update on Herbalife\u00ae", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3271", "text": "Saturated Fat & Cancer Progression", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3281", "text": "Aluminum in Vaccines vs. Food", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3292", "text": "Are Multivitamins Good For You?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-33", "text": "What\u2019s Driving America\u2019s Obesity Problem?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3302", "text": "Fish Fog", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3312", "text": "Sexually Transmitted Fish Toxin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-332", "text": "Can antioxidant-rich spices counteract the effects of a high-fat meal?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3322", "text": "Veggies vs. Cancer", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3332", "text": "Alcohol Risks vs. Benefits", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3342", "text": "Is Coconut Milk Good For You?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3352", "text": "Boosting Heart Nerve Control", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3362", "text": "Kuna Indian Secret", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3372", "text": "The Healthiest Sweetener", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3382", "text": "Are Artificial Colors Bad for You?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3392", "text": "Healthiest Airplane Beverage", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3402", "text": "Antioxidant Content of 300 Foods", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3412", "text": "Plant vs. Cow Calcium", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3422", "text": "Vitamin Supplements Worth Taking", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3432", "text": "Healthy Chocolate Milkshakes", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-344", "text": "Dioxins Stored in Our Own Fat May Increase Diabetes Risk", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3442", "text": "The Healthiest Vegetables", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3452", "text": "Bowel Movement Frequency", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3462", "text": "Olive Oil and Artery Function", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-3472", "text": "How Doctors Responded to Being Named a Leading Killer", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-358", "text": "Didn't another study show carnitine was good for the heart?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-371", "text": "Any update on the scary in vitro avocado data?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-383", "text": "What do you think of Dr. Jenkins' take on paleolithic diets?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-395", "text": "What about pepper plus turmeric in V8 juice?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-407", "text": "Is annatto food coloring safe?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-418", "text": "Fresh fruit versus frozen--which is better?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-430", "text": "Are krill oil supplements better than fish oil capsules?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-44", "text": "Who Should be Careful About Curcumin?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-441", "text": "Is apple cider vinegar good for you?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-457", "text": "How can you believe in any scientific study?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-468", "text": "Is vitamin D3 (cholecalciferol) preferable to D2 (ergocalciferol)?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-478", "text": "accidents", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-488", "text": "adenovirus 36", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-499", "text": "African-American", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-510", "text": "airport scanners", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-520", "text": "Alli", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-531", "text": "alternative medicine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-541", "text": "American Dental Association", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-551", "text": "amnesia", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-56", "text": "Foods for Glaucoma", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-561", "text": "aneurysm", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-571", "text": "anisakis", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-583", "text": "antinutrients", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-593", "text": "apnea", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-603", "text": "Arkansas", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-613", "text": "ascorbic acid", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-623", "text": "Atkins diet", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-634", "text": "avocados", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-645", "text": "bagels", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-660", "text": "beans", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-671", "text": "benzene", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-68", "text": "What is Actually in Chicken Nuggets?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-681", "text": "betel nuts", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-691", "text": "bioavailability", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-701", "text": "black raspberries", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-711", "text": "blood clots", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-721", "text": "BMAA", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-731", "text": "bone fractures", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-741", "text": "BPH", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-751", "text": "BRCA genes", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-761", "text": "breast pain", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-771", "text": "bronchiolitis obliterans", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-78", "text": "What Do Meat Purge and Cola Have in Common?", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-782", "text": "Bush administration", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-792", "text": "cadaverine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-806", "text": "caloric restriction", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-817", "text": "canker sores", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-827", "text": "carcinogens", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-838", "text": "carrageenan", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-850", "text": "cauliflower", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-872", "text": "chanterelle mushrooms", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-882", "text": "Chernobyl", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-892", "text": "chickpeas", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-902", "text": "chlorophyll", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-91", "text": "Chronic Headaches and Pork Parasites", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-913", "text": "cinnamon", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-924", "text": "cocaine", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-934", "text": "coffee", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-946", "text": "coma", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-956", "text": "cooking methods", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-966", "text": "cortisol", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-977", "text": "crib death", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-987", "text": "cumin", "type": "unknown", "split": "test"}
+{"qid": "PLAIN-997", "text": "Czechoslovakia", "type": "unknown", "split": "test"}

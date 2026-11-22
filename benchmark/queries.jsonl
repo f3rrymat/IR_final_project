@@ -1,0 +1,80 @@
+{"qid": "q001", "text": "TF-IDF formula and inverse document frequency", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q002", "text": "BM25 term frequency saturation k1 and b parameters", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q003", "text": "inverted index posting list compression", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q004", "text": "PageRank damping factor random surfer", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q005", "text": "Rocchio relevance feedback", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q006", "text": "query likelihood language model Dirichlet smoothing", "type": "exact", "domain": "IR", "split": "val"}
+{"qid": "q007", "text": "ColBERT late interaction", "type": "exact", "domain": "IR", "split": "val"}
+{"qid": "q008", "text": "HNSW hierarchical navigable small world graph", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q009", "text": "NDCG discounted cumulative gain", "type": "exact", "domain": "IR", "split": "test"}
+{"qid": "q010", "text": "multi-level feedback queue scheduling", "type": "exact", "domain": "OS", "split": "val"}
+{"qid": "q011", "text": "TLB miss handling", "type": "exact", "domain": "OS", "split": "val"}
+{"qid": "q012", "text": "semaphore sem_wait sem_post", "type": "exact", "domain": "OS", "split": "test"}
+{"qid": "q013", "text": "RAID 5 parity", "type": "exact", "domain": "OS", "split": "val"}
+{"qid": "q014", "text": "LRU clock page replacement", "type": "exact", "domain": "OS", "split": "test"}
+{"qid": "q015", "text": "lottery scheduling tickets", "type": "exact", "domain": "OS", "split": "test"}
+{"qid": "q016", "text": "TCP Reno fast retransmit fast recovery", "type": "exact", "domain": "Networks", "split": "val"}
+{"qid": "q017", "text": "BGP path attributes", "type": "exact", "domain": "Networks", "split": "val"}
+{"qid": "q018", "text": "802.11 CSMA/CA", "type": "exact", "domain": "Networks", "split": "test"}
+{"qid": "q019", "text": "token bucket rate limiting", "type": "exact", "domain": "Networks", "split": "test"}
+{"qid": "q020", "text": "distance vector routing count to infinity", "type": "exact", "domain": "Networks", "split": "val"}
+{"qid": "q021", "text": "two-phase locking", "type": "exact", "domain": "DBMS", "split": "test"}
+{"qid": "q022", "text": "ARIES recovery", "type": "exact", "domain": "DBMS", "split": "test"}
+{"qid": "q023", "text": "hash join", "type": "exact", "domain": "DBMS", "split": "val"}
+{"qid": "q024", "text": "Bellman-Ford algorithm", "type": "exact", "domain": "Algorithms", "split": "test"}
+{"qid": "q025", "text": "union-find path compression", "type": "exact", "domain": "Algorithms", "split": "test"}
+{"qid": "q026", "text": "Bloom filter false positive rate", "type": "exact", "domain": "Algorithms", "split": "test"}
+{"qid": "q027", "text": "Knuth-Morris-Pratt string matching", "type": "exact", "domain": "Algorithms", "split": "val"}
+{"qid": "q028", "text": "How can a search engine identify the importance of a webpage?", "type": "semantic", "domain": "IR", "split": "test"}
+{"qid": "q029", "text": "How can we prevent multiple processes from corrupting shared information?", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q030", "text": "why do search engines ignore very common words like the and of", "type": "semantic", "domain": "IR", "split": "val"}
+{"qid": "q031", "text": "how to reduce words like running and runs to the same form", "type": "semantic", "domain": "IR", "split": "test"}
+{"qid": "q032", "text": "how does the computer pretend each program has the whole memory to itself", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q033", "text": "what happens when two threads wait for each other forever", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q034", "text": "how does the operating system decide which program gets to run next", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q035", "text": "how to keep a file system consistent if the power fails in the middle of a write", "type": "semantic", "domain": "OS", "split": "val"}
+{"qid": "q036", "text": "how does the sender slow down when the network is overloaded", "type": "semantic", "domain": "Networks", "split": "test"}
+{"qid": "q037", "text": "how does a computer find the hardware address of another machine on the same local network", "type": "semantic", "domain": "Networks", "split": "val"}
+{"qid": "q038", "text": "how do routers on the internet learn where to send packets for different organizations", "type": "semantic", "domain": "Networks", "split": "test"}
+{"qid": "q039", "text": "how to keep a database correct when many users update it at the same time", "type": "semantic", "domain": "DBMS", "split": "test"}
+{"qid": "q040", "text": "how does a database survive a crash without losing committed work", "type": "semantic", "domain": "DBMS", "split": "val"}
+{"qid": "q041", "text": "fastest way to find the cheapest route between two cities on a map", "type": "semantic", "domain": "Algorithms", "split": "test"}
+{"qid": "q042", "text": "how to quickly check whether an item is probably in a huge set using very little memory", "type": "semantic", "domain": "Algorithms", "split": "test"}
+{"qid": "q043", "text": "how to connect all houses with cables using the least total length", "type": "semantic", "domain": "Algorithms", "split": "val"}
+{"qid": "q044", "text": "breaking a problem into overlapping subproblems and remembering their answers", "type": "semantic", "domain": "Algorithms", "split": "val"}
+{"qid": "q045", "text": "problems for which no efficient algorithm is believed to exist", "type": "semantic", "domain": "Algorithms", "split": "test"}
+{"qid": "q046", "text": "representing text as vectors so that texts with similar meaning are close together", "type": "semantic", "domain": "IR", "split": "test"}
+{"qid": "q047", "text": "adding related words to a user's search to find more relevant results", "type": "semantic", "domain": "IR", "split": "val"}
+{"qid": "q048", "text": "how do we measure whether a search engine returns good results", "type": "semantic", "domain": "IR", "split": "test"}
+{"qid": "q049", "text": "finding the closest vectors quickly among millions of points", "type": "semantic", "domain": "IR", "split": "val"}
+{"qid": "q050", "text": "how can two computers agree on a secret key over a public channel", "type": "semantic", "domain": "Networks", "split": "test"}
+{"qid": "q051", "text": "why does the movement of the disk arm affect how fast data is read", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q052", "text": "storing data across many disks so that one disk failure does not lose data", "type": "semantic", "domain": "OS", "split": "val"}
+{"qid": "q053", "text": "deciding which page to evict when physical memory is full", "type": "semantic", "domain": "OS", "split": "test"}
+{"qid": "q054", "text": "how to split the work of a query across many machines", "type": "semantic", "domain": "DBMS", "split": "val"}
+{"qid": "q055", "text": "Compare BM25 and TF-IDF", "type": "mixed", "domain": "IR", "split": "val"}
+{"qid": "q056", "text": "difference between paging and segmentation", "type": "mixed", "domain": "OS", "split": "test"}
+{"qid": "q057", "text": "TCP versus UDP when should each be used", "type": "mixed", "domain": "Networks", "split": "test"}
+{"qid": "q058", "text": "locks versus semaphores for synchronization", "type": "mixed", "domain": "OS", "split": "test"}
+{"qid": "q059", "text": "dense retrieval compared with sparse lexical retrieval", "type": "mixed", "domain": "IR", "split": "val"}
+{"qid": "q060", "text": "B+tree versus hash index for range queries", "type": "mixed", "domain": "DBMS", "split": "val"}
+{"qid": "q061", "text": "Dijkstra versus Bellman-Ford with negative edge weights", "type": "mixed", "domain": "Algorithms", "split": "test"}
+{"qid": "q062", "text": "why does BM25 normalize by document length", "type": "mixed", "domain": "IR", "split": "test"}
+{"qid": "q063", "text": "how does a TLB speed up address translation", "type": "mixed", "domain": "OS", "split": "val"}
+{"qid": "q064", "text": "two-phase locking versus timestamp ordering", "type": "mixed", "domain": "DBMS", "split": "test"}
+{"qid": "q065", "text": "how does slow start work in TCP congestion control", "type": "mixed", "domain": "Networks", "split": "val"}
+{"qid": "q066", "text": "precision versus recall trade-off", "type": "mixed", "domain": "IR", "split": "test"}
+{"qid": "q067", "text": "using BERT to re-rank passages retrieved by BM25", "type": "mixed", "domain": "IR", "split": "val"}
+{"qid": "q068", "text": "IPv4 versus IPv6 address size and header format", "type": "mixed", "domain": "Networks", "split": "test"}
+{"qid": "q069", "text": "greedy algorithms versus dynamic programming", "type": "mixed", "domain": "Algorithms", "split": "test"}
+{"qid": "q070", "text": "how are documents added to an inverted index during indexing", "type": "mixed", "domain": "IR", "split": "val"}
+{"qid": "q071", "text": "how does a log-structured file system write data to disk", "type": "mixed", "domain": "OS", "split": "val"}
+{"qid": "q072", "text": "write-ahead logging for database recovery", "type": "mixed", "domain": "DBMS", "split": "test"}
+{"qid": "q073", "text": "how do sentence embeddings help semantic search", "type": "mixed", "domain": "IR", "split": "test"}
+{"qid": "q074", "text": "amortized analysis of a dynamic array that doubles", "type": "mixed", "domain": "Algorithms", "split": "test"}
+{"qid": "q075", "text": "how does NFS handle server crashes with a stateless protocol", "type": "mixed", "domain": "OS", "split": "test"}
+{"qid": "q076", "text": "query optimizer cost estimation and join ordering", "type": "mixed", "domain": "DBMS", "split": "val"}
+{"qid": "q077", "text": "how does a distance vector routing protocol converge", "type": "mixed", "domain": "Networks", "split": "test"}
+{"qid": "q078", "text": "how does MLFQ prevent starvation of long jobs", "type": "mixed", "domain": "OS", "split": "val"}
+{"qid": "q079", "text": "approximate nearest neighbor search with proximity graphs", "type": "mixed", "domain": "IR", "split": "test"}
+{"qid": "q080", "text": "multi-version concurrency control snapshot isolation", "type": "mixed", "domain": "DBMS", "split": "test"}
